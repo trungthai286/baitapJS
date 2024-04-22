@@ -29,10 +29,10 @@ ul2.insertAdjacentHTML('beforeend','<li>Item 10</li>');
 const ul3=document.querySelectorAll("#list");
 for(let i=0; i< ul3.length; i++){
     if(i==0){
-        ul3[i].style.color="red"
+        ul3[i].style.color='red';
     }
     if(i==2){
-        ul3[i].style.backgroundColor="green";
+        ul3[i].style.backgroundColor='green';
     }
     }
 
