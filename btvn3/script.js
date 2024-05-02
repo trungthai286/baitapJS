@@ -40,6 +40,7 @@ for(let i=0; i< ul3.length; i++){
 const li4=document.querySelector(".li4");
 ul2.removeChild(li4);
 
+
 // Thêm thẻ <li> mới thay thế cho thẻ <li> 4 bị xóa ở bước trước, thẻ <li> mới có nội dung bất kỳ
 const newLi=document.createElement('li');
 newLi.innerText="Thay the Li4";
